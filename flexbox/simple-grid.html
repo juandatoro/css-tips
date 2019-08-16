@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 0rem;
+    min-height: 100vh;
+  }
+
+  header {
+    height: 2rem;
+    background-color: red;
+  }
+  main {
+    flex-grow: 1;
+    padding: 1rem;
+    overflow: auto;
+    background-color: whitesmoke;
+
+  }
+  footer {
+    height: 2rem;
+    background-color: blue;
+  }
+  .app {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 1rem;
+    min-width: 11rem;
+    background-color:thistle;
+  }
+  .datos {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 1rem;
+    border: 0.25rem solid black;
+    padding: 1rem;
+    min-height: 4rem;
+    min-width: 5rem;
+    max-width: 15rem;
+    background-color: brown;
+  }
+</style>
+<body>
+  <header></header>
+  <main>
+    <div class="app">
+      <div class="datos">Datos 1</div>
+      <div class="datos">Datos 2</div>
+      <div class="datos">Datos 3</div>
+      <div class="datos">Datos 4</div>
+      <div class="datos">Datos 5</div>
+      <div class="datos">Datos 6</div>
+      <div class="datos">Datos 7</div>
+      <div class="datos">Datos 8</div>
+    </div>
+  </main>
+  <footer></footer>
+</body>
+</html>
